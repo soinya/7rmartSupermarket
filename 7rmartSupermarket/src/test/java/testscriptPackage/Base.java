@@ -41,6 +41,7 @@ public class Base {
 		if (browser.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
 		} else if (browser.equalsIgnoreCase("edge")) {
+			System.setProperty("webdriver.edge.driver", "C:\\WebDriver\\msedgedriver.exe");
 			driver = new EdgeDriver();
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
