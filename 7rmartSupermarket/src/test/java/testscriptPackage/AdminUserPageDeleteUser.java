@@ -19,7 +19,7 @@ public class AdminUserPageDeleteUser extends Base{
 	AdminUserPage adminuserpage;
 	
   @Test(retryAnalyzer = retry.Retry.class)
-  public void deleteUser() throws IOException {
+  public void VerifyDeleteUser() throws IOException {
 	  
 	  String userName = ExcelUtility.getStringData(1, 0, "AdminUserPageTest");
 	  String password = ExcelUtility.getStringData(1, 1, "AdminUserPageTest");

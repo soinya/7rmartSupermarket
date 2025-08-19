@@ -3,6 +3,7 @@
 <suite name="Suite">
 <parameter name="username" value="admin"></parameter>
 <parameter name="passWord" value="admin"></parameter>
+<parameter name="browser" value="chrome"></parameter>
   <test thread-count="5" name="Test">
     <classes>
       <class name="testscriptPackage.LoginPageTest">

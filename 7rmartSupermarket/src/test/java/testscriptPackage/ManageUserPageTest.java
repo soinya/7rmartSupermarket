@@ -18,7 +18,7 @@ public class ManageUserPageTest extends Base{
 	HomePage homepage;
 	
   @Test
-  public void createNews() throws IOException {
+  public void VerifyUserCancreateNews() throws IOException {
 	  
 	  String userName = ExcelUtility.getStringData(1, 0, "ManageUserPageTest");
 	  String password = ExcelUtility.getStringData(1, 1, "ManageUserPageTest");

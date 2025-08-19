@@ -17,7 +17,7 @@ public class AdminUserPageSearchUser extends Base{
 	AdminUserPage adminuserpage;
 	
   @Test
-  public void searchUser() throws IOException {
+  public void VerifySearchUser() throws IOException {
 	  
 	  String userName = ExcelUtility.getStringData(1, 0, "AdminUserPageTest");
 	  String password = ExcelUtility.getStringData(1, 1, "AdminUserPageTest");

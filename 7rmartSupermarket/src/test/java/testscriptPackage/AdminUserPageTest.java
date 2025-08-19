@@ -19,7 +19,7 @@ public class AdminUserPageTest extends Base{
 	FakerUtility fakerutility = new FakerUtility();
 	
   @Test
-  public void createAdminUserInfo() throws IOException {
+  public void VerifyUserCreation() throws IOException {
 	  
 	  String userName = ExcelUtility.getStringData(1, 0, "AdminUserPageTest");
 	  String password = ExcelUtility.getStringData(1, 1, "AdminUserPageTest");

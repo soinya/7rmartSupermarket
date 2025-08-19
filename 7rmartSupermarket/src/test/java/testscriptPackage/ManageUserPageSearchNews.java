@@ -18,7 +18,7 @@ ManageUserPage manageuserpage;
 	HomePage homepage;
 	
   @Test
-  public void searchNews() throws IOException {
+  public void VerifyUserCansSearchNews() throws IOException {
 	  
 	  String userName = ExcelUtility.getStringData(1, 0, "ManageUserPageTest");
 	  String password = ExcelUtility.getStringData(1, 1, "ManageUserPageTest");

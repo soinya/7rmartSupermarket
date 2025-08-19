@@ -18,7 +18,7 @@ public class ManageUserPageDeleteNews extends Base{
 	HomePage homepage;
 	
   @Test
-  public void deleteNews() throws IOException {
+  public void VerifyUserCanDeleteNews() throws IOException {
 	  
 	  String userName = ExcelUtility.getStringData(1, 0, "ManageUserPageTest");
 	  String password = ExcelUtility.getStringData(1, 1, "ManageUserPageTest");
